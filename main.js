@@ -180,15 +180,15 @@ console.log(background)
 
 window.onresize = function () {
     if (window.innerWidth < '767') {
-        background.src = '/images/image-hero-mobile.jpg'
+        background.src = 'images/image-hero-mobile.jpg'
         ul.style.display = 'none'
-        icon.src = '/images/icon-hamburger.svg'
+        icon.src = 'images/icon-hamburger.svg'
         header.append(icon)
         overlay.remove()
     }
     else {
-        background.src = '/images/image-hero-desktop.jpg'
-        icon.src = '/images/icon-hamburger.svg'
+        background.src = 'images/image-hero-desktop.jpg'
+        icon.src = 'images/icon-hamburger.svg'
 
         ul.style.display = 'flex'
         icon.remove()
@@ -201,14 +201,14 @@ window.onresize = function () {
 let mood = 'open';
 icon.onclick = function () {
     if (mood === "open") {
-        icon.src = '/images/icon-close-menu.svg'
+        icon.src = 'images/icon-close-menu.svg'
         overlay.className = 'overlay-popup';
         // add elemnts in the popUp
         document.body.appendChild(overlay)
         ul.style.display = 'block'
         mood = 'close';
     } else {
-        icon.src = '/images/icon-hamburger.svg'
+        icon.src = 'images/icon-hamburger.svg'
         mood = 'open';
         overlay.remove()
         ul.style.display = 'none'
@@ -221,13 +221,13 @@ let baseValue = 0;
 
 window.onload = function () {
     if (window.innerWidth < '767') {
-        background.src = '/images/image-hero-mobile.jpg'
+        background.src = 'images/image-hero-mobile.jpg'
         ul.style.display = 'none'
-        icon.src = '/images/icon-hamburger.svg'
+        icon.src = 'images/icon-hamburger.svg'
         header.append(icon)
     }
     else {
-        background.src = '/images/image-hero-desktop.jpg'
+        background.src = 'images/image-hero-desktop.jpg'
         ul.style.display = 'flex'
         icon.remove()
     }

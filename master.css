@@ -37,7 +37,18 @@ body{
         width: 1170px;
     }
 }
-
+.attribution{
+    text-align: center;
+    margin-top: 20px;
+}
+.attribution a{
+    color: hsl(176, 72%, 28%);
+    font-weight: 700;
+}
+.attribution a span{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
 .photo img{
 width: 100%;
 height: 300px;

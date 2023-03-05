@@ -154,12 +154,12 @@ btnReward.forEach((btn) => {
 
 bookmark.onclick = function () {
     if (bookClick === 'unbook') {
-        imgBook.src = '/images/icon-bookmark2.svg'
+        imgBook.src = 'images/icon-bookmark2.svg'
         BookingColor.style.color = ' hsl(176, 50%, 47%)'
         BookingColor.innerHTML = 'Bookmarked'
         bookClick = 'book';
     } else {
-        imgBook.src = '/images/icon-bookmark.svg'
+        imgBook.src = 'images/icon-bookmark.svg'
         BookingColor.style.color = 'hsl(0, 0%, 48%)'
         BookingColor.innerHTML = 'Bookmark'
         bookClick = 'unbook'

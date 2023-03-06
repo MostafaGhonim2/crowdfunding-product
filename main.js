@@ -130,9 +130,7 @@ btnReward.forEach((btn) => {
                     inputNumber.value = '25';
                     }
                     }
-
                     let submit = document.querySelector('.submit');
-
                     submit.addEventListener('click', function () {
                         overlay.innerHTML = submitPledge
                         let got = document.querySelector('.got');
@@ -140,9 +138,7 @@ btnReward.forEach((btn) => {
                             window.location.reload()
                         })
                     })
-
                 }
-
                 else {
                 lastElment.style.border = '1px solid rgba(128, 128, 128, 0.877)';
                 }
@@ -166,8 +162,6 @@ bookmark.onclick = function () {
     }
 }
 
-
-
 // Drop menue
 
 let header = document.querySelector('header');
@@ -176,7 +170,6 @@ let icon = document.createElement('img');
 icon.className = 'icon';
 let background = document.querySelector('.photo img')
 console.log(background)
-
 
 window.onresize = function () {
     if (window.innerWidth < '767') {
@@ -194,9 +187,6 @@ window.onresize = function () {
         icon.remove()
     }
 }
-
-
-
 
 let mood = 'open';
 icon.onclick = function () {
@@ -217,7 +207,6 @@ icon.onclick = function () {
 
 let progress = document.querySelector('progress');
 let baseValue = 0;
-
 
 window.onload = function () {
     if (window.innerWidth < '767') {
